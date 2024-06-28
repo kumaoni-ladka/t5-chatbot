@@ -22,7 +22,7 @@ questions = [
     "What are the Clubs of Gen Garage?"
 ]
 
-context = ""<b>Welcome to Gen Garage!<br><br> I'm your friendly GENIE, at your service!<br><br>  Here are some options for you to explore the website and know about it:<br></b><b>*</b> About Gen Garage<br><b>*</b> Missions of Gen Garage<br><b>*</b> Leads of Gen Garage<br><b>*</b> Current Projects<br><b>*</b> Achievements"
+context = '''<b>Welcome to Gen Garage!<br><br> I'm your friendly GENIE, at your service!<br><br>  Here are some options for you to explore the website and know about it:<br></b><b>*</b> About Gen Garage<br><b>*</b> Missions of Gen Garage<br><b>*</b> Leads of Gen Garage<br><b>*</b> Current Projects<br><b>*</b> Achievements'''
 
 app = Flask("__name__")
 CORS(app)
