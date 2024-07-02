@@ -1,4 +1,4 @@
-torch==2.1.0+cpu -index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu -index-url 'https://download.pytorch.org/whl/cpu'
 Flask~=3.0.3
 transformers~=4.41.2
 flask_cors
