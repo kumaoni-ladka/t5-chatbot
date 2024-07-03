@@ -1,3 +1,4 @@
 flask~=3.0.3
 flask-cors==3.0.10
 cohere~=5.5.8
+gunicorn
