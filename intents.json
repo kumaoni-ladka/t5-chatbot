@@ -1,5 +1,5 @@
 {
-    "intents": [	
+    "intents": [    
             {
                 "tag": "greeting",
                 "patterns": [
@@ -27,96 +27,96 @@
                   "Good afternoon!"
                 ],
                 "responses": [
-                  "<b>Hi! Hope you are doing great.<br><br> I'm your friendly Freddie, at your service!<br><br>I can take care of all of your questions which you have regarding the Organization. If I won't be able to answer any queations, I will note that down and try to work on it.<br>I can take care of your 'How', 'What', 'Where', 'When' and 'Who'.<br>So, What do you want to know?<br>"
+                  "<b>Hi! Hope you are doing great.<br><br> I'm your friendly Freddie, at your service!<br><br>I can take care of all of your questions which you have regarding the Organization.<br><br> If I won't be able to answer any queations, I will note that down and try to work on it.<br><br>I can take care of your 'How', 'What', 'Where', 'When' and 'Who'.<br><br>So, What do you want to know?<br>"
                 ]
             },
             {
-    
+   
                 "tag": "Replicon",
                 "patterns": ["Replicon","To know more about Replicon"],
-                "responses": ["Replicon is your new Global Time Management solution in Capgemini India for managing work time by submitting weekly timesheets and booking time off requests.<br>•To access Replicon, you can use your Single Sign-On (SSO) credentials or connect to the VPN for secure access.<br>•Additionally, you can download the Replicon mobile app from Microsoft Intune through your Work profile<br>For more information about Replicon, refer to <a class='button-style' href='https://talent.capgemini.com/media_library/Medias/Documents/Indian_Documents/Replicon_Global_Time_Management_SOP_V1.1.pdf' target='_blank'>this document</a>."]
+                "responses": ["Replicon is your new Global Time Management solution in Capgemini India for managing work time by submitting weekly timesheets and booking time off requests.<br><br>For more information about Replicon, refer to <a class='button-style' href='https://talent.capgemini.com/media_library/Medias/Documents/Indian_Documents/Replicon_Global_Time_Management_SOP_V1.1.pdf' target='_blank'>Replicon</a>."]
             },
             {
-    
+   
                 "tag": "TimeCard",
                 "patterns": ["Fill","Fill Timesheet","Fill Timecard","Modify Timesheet","Modify Timecard","Adjust","Adjust Timesheet","Adjust Timecard"],
                 "responses": [
-                    "You can fill or modify your timesheet <a class='button-style' href='https://talent.capgemini.com/in/pages/about_us/global_time_management/' target='_blank'>here</a>"
+                    "You must submit your timecard by the last working day of the week.<br> To know more about click below <a class='button-style' href='https://talent.capgemini.com/in/pages/about_us/global_time_management/' target='_blank'>Click here</a>"
                     ]
             },
             {
-    
+   
                 "tag": "Leaves",
                 "patterns": ["Steps to Apply Leave","Apply Leave","Leave"],
-                "responses": ["To apply leave, follow these <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FApply%20Leave%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>steps</a>."
+                "responses": ["Capgemini offers a variety of leave options to its employees in India.<br> Here are the key details:<br>* Privilege Leave: 22 days<br>* Maternity Leave: 184 days<br>* Miscarriage Leave: 45 days<br>* Tubectomy Leave: 14 days<br>* Critical Illness Due to Pregnancy: 30 days<br>* Paternity Leave: 15 days<br>* Adoption Leave:<br>* Female: 184 days<br>* Male: 15 days<br>* Surrogacy Leave: 184 days<br>* Bereavement Leave: 5 days<br>* Leave Without Pay: Subjective<br>* Sabbatical Leave: 730 days<br>* Public Holiday: 10 days (2 optional)<br>* Compensatory Leave: Subjective<br>* Transfer Leave<br><br>To apply leave, follow these <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FApply%20Leave%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>steps</a>."
                 ]
             },
             {
                 "tag": "Information",
                 "patterns": ["Service Central", "Want to know more about service central?","More Information"],
                 "responses": [
-                    "ServiceCentral is a platform where you can manage various IT-related services and requests.<br>For an overview of Service Central, view <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FService%20Central%20Overview%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>this document</a>."
+                    "Service Central is a platform where you can manage various IT services and requests.<br><br>For an overview of Service Central, view <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FService%20Central%20Overview%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>this document</a>."
                     ]
             },
             {
                 "tag": "Reimbursement",
                 "patterns": ["Steps to Fill Expense Reimbursement","Reimbursement","Claims"],
                 "responses": [
-                    "To fill expense reimbursement, check out <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FFill%20Reimbursement%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>this guide</a>."
+                    "The company provides guidelines on reimbursement and accounting for all expenses incurred by employees as part of their assigned responsibilities.<br><br>For more Info check out<br> <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FFill%20Reimbursement%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>this guide</a>"
                     ]
             },
             {
                 "tag": "Troubleshoot",
                 "patterns": ["Issue with the hardware/Software","Issue with the hardware","Issue with the software","Troubleshoot"],
-                "responses": ["Facing hardware/software issues? Find solutions <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FHardware%26SoftwareIssue%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>here</a>."                  
+                "responses": ["If you're experiencing issues with Microsoft Office 365 applications such as MS Outlook <br><br>MS Teams  or facing any  hardware/software issues <br><br> follow the link<br> <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW%2FHardware%26SoftwareIssue%2Epdf&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FHOW' target='_blank'>here</a>"                  
                 ]
             },
             {
                 "tag": "Install",
                 "patterns": ["Need to install new software?", "Get Access to use Licensed Software","New software","Install"],
                 "responses": [
-                    "Need to install new software? Follow these <a class='button-style' href='https://servicecentral.capgemini.com/kb_view.do?sysparm_article=KB0119871&sysparm_rank=1&sysparm_tsqueryId=3a8e06a1db1d299016daf462f3961961' target='_blank'>instructions</a>. <br>Or<br>To get access to licensed software, refer to <a class='button-style' href='https://servicecentral.capgemini.com/sc?id=kb_article_view&sysparm_article=KB0120741&sys_kb_id=3779cbd4db69a5d46c9150d3f396197d&spa=1' target='_blank'>this article</a>."                  
+                    "Need to install new software? Follow these <a class='button-style' href='https://servicecentral.capgemini.com/kb_view.do?sysparm_article=KB0119871&sysparm_rank=1&sysparm_tsqueryId=3a8e06a1db1d299016daf462f3961961' target='_blank'>instructions</a> <br>Or<br>To get access to licensed software, refer to <a class='button-style' href='https://servicecentral.capgemini.com/sc?id=kb_article_view&sysparm_article=KB0120741&sys_kb_id=3779cbd4db69a5d46c9150d3f396197d&spa=1' target='_blank'>this article</a>"                  
                 ]
-            },			  
+            },            
             {
                 "tag": "PING ID",
                 "patterns": ["PING ID", "Know what Ping ID?"],
-                "responses": ["Learn more about Ping ID <a class='button-style' href='https://groupit.capgemini.com/services/pcsecurity/pingid/' target='_blank'>here</a>."
+                "responses": ["PingID is a multi-factor authentication (MFA) solution developed to enhance security by requiring users to verify their identity through multiple methods before granting access to<br>* systems<br>* applications<br>* data.<br> <a class='button-style' href='https://groupit.capgemini.com/services/pcsecurity/pingid/' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "Access Card",
                 "patterns": ["Access Card", "Access card"],
                 "responses": [
-                    "Information about access cards can be found <a class='button-style' href='https://talent.capgemini.com/in/pages/about_us/global_business_lines_/infra_india/hr_corner/New_hire/' target='_blank'>here</a>."
+                    "Access cards are used for any physical security systems, used to control entry to buildings, rooms, or other secured areas.<br><br>Information about access cards can be found<br> <a class='button-style' href='https://talent.capgemini.com/in/pages/about_us/global_business_lines_/infra_india/hr_corner/New_hire/' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "Learning Partners",
                 "patterns": ["Learning Partners", "Know our learning partners"],
                 "responses": [
-                    "Explore our learning partners <a class='button-style' href='https://capgemini.sharepoint.com/sites/universall/SitePages/Learning-Partners.aspx' target='_blank'>here</a>."
+                    "At Capgemini, the Learning Business Partners play a crucial role in facilitating various training and development programs.<br><br>Explore our learning partners<br> <a class='button-style' href='https://capgemini.sharepoint.com/sites/universall/SitePages/Learning-Partners.aspx' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "HR queries",
                 "patterns": ["MAiA", "HR related queries", "HR queries", "HR"],
                 "responses": [
-                    "For HR queries, you can ask MAiA <a class='button-style' href='https://talent.capgemini.com/in/pages/supportfunctions/human_resources/' target='_blank'>here</a>."
+                    "For any HR-related queries, you can use <br><br>the following platforms:<br>* SuccessFactors<br>* Work Zone<br>* Ask HR<br>* Contacting HR<br><br>you can ask MAiA <br> <a class='button-style' href='https://talent.capgemini.com/in/pages/supportfunctions/human_resources/' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "IT support",
                 "patterns": ["IT support", "Help Desk", "Helpdesk", "support"],
                 "responses": [
-                    "Get IT support from the Help Desk <a class='button-style' href='https://groupit.capgemini.com/it_contacts/' target='_blank'>here</a>."
+                    "Get IT support from the Help Desk<br><a class='button-style' href='https://groupit.capgemini.com/it_contacts/' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "Fun Club",
                 "patterns": ["Fun Club"],
                 "responses": [
-                  "Join the Fun Club <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?OR=Teams%2DHL&CT=1719904688109&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA1MzEwMTQyMSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE%2FFun%5FClub%2Epdf&viewid=d8de8c49%2D67ff%2D446b%2D860c%2D8b181c91e6bc&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE' target='_blank'>here</a>."
+                  "A Fun Club is a social group designed to bring people together for the purpose of enjoyment, relaxation, and leisure activities.<br><br>want to Join the Fun Club? <br><a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?OR=Teams%2DHL&CT=1719904688109&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA1MzEwMTQyMSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE%2FFun%5FClub%2Epdf&viewid=d8de8c49%2D67ff%2D446b%2D860c%2D8b181c91e6bc&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE' target='_blank'>Fun Club</a>"
                 ]
             },
             {
@@ -136,23 +136,23 @@
                 "tag": "Sports arena",
                 "patterns": ["Sports arena", "Where is sports arena", "play arena"],
                 "responses": [
-                    "Explore the Sports Arena details <a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE%2FSports%20Arena%2Epdf&viewid=d8de8c49%2D67ff%2D446b%2D860c%2D8b181c91e6bc&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE' target='_blank'>here</a>."
+                    "Explore the Sports Arena details<br><a class='button-style' href='https://capgemini.sharepoint.com/sites/Freshers_Buddy/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE%2FSports%20Arena%2Epdf&viewid=d8de8c49%2D67ff%2D446b%2D860c%2D8b181c91e6bc&parent=%2Fsites%2FFreshers%5FBuddy%2FShared%20Documents%2FAttachments%2FWHERE' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "Library",
                 "patterns": ["Library", "Where is library?"],
                 "responses": [
-                    "Access our library resources <a class='button-style' href='https://talent.capgemini.com/in/pages/learning/library' target='_blank'>here</a>."
+                    "Access our library resources<br><a class='button-style' href='https://talent.capgemini.com/in/pages/learning/library' target='_blank'>here</a>"
                 ]
             },
             {
                 "tag": "Creche",
                 "patterns": ["Creche", "Where is creche?", "Child place", "Children place", "kids area"],
                 "responses": [
-                    "Information about creche facilities can be found <a class='button-style' href='https://talent.capgemini.com/in/pages/Architects_of_Positive_Future/winspire_di/winspire_advancing_gender_balance/Child_care_benefits/creche_tie_up_details' target='_blank'>here</a>."
+                    "Information about creche facilities can be found<br><a class='button-style' href='https://talent.capgemini.com/in/pages/Architects_of_Positive_Future/winspire_di/winspire_advancing_gender_balance/Child_care_benefits/creche_tie_up_details' target='_blank'>here</a>"
                 ]
             }
         ]
-    
+   
 }
