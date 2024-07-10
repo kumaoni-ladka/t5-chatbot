@@ -61,7 +61,7 @@ def get_response(user_input):
     if similarity_scores[max_score_index] > 0.5:
         response_options = responses[max_score_index]
         return random.choice(response_options)
-    return "I do not understand... <br><br> Please select from following keywords:<br> - Gen Garage <br> - Leads <br> - Mission <br> - Achievements <br> - Gen Z <br> - Projects <br> - Notebook"
+    return "I do not understand...<br><br>Please select from the following keywords:<br>Replicon<br>Leave<br>Timecard<br>Information<br>Service Central<br>Reimbursement<br>Troubleshoot<br>Install<br>Ping ID<br>Access Card<br>Learning Partners"
 
 # Run Gunicorn server using subprocess
 def run_gunicorn():
